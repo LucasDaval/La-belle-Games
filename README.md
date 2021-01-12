@@ -1,1 +1,1 @@
-Integration of La Belle Games site with kirby
+Integration of La Belle Games site with kirby.js
