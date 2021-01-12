@@ -25,36 +25,49 @@
 <main>
   <?php snippet('intro') ?>
 
-  <section>
-    <article> 
-      <a href="<?= $site->children()->listed()->nth(2)->url() ?>"><img src="<?= $page->images()->nth(0)->crop(500)->url() ?>" alt=""></a>      
-      <div>
-        <p>Slogan</p>
-        <p id="presEnt">Présentation de l'entreprise</p>
-      </div>
-    </article>
-  </section>
+  <section></section>
+
+  <hr>
 
   <section>
-    <hr>
-    <h2>GAMES</h2>
-    <hr>
-    <article>
-      <a href=""><img src="<?= $page->images()->nth(1)->crop(500)->url() ?>" alt=""></a>      
-      <a href=""><img src="<?= $page->images()->nth(2)->crop(500)->url() ?>" alt=""></a>      
-    </article>
-  </section>
+    <p class="desc-text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia labore, 
+      laboriosam beatae fuga quaerat eveniet maxime inventore doloribus, blanditiis nostrum soluta natus! 
+      Delectus beatae maxime at odio, voluptate vero repellat.
+      Illo vitae exercitationem dolore doloribus! Rerum ipsam consectetur dicta quos odit ipsum repellendus, 
+      uo eaque ducimus ab assumenda, corporis expedita eligendi eius excepturi impedit ut ad quisquam sint obcaecati! Excepturi?
+      Quos illum ea omnis fugit, consectetur exercitationem obcaecati iste rem consequatur perspiciatis 
+      assumenda sint, sunt dolore quasi laudantium hic sapiente? Modi voluptas, facere vel mollitia a maiores dolorum temporibus impedit?
+    </p>
 
-  <section>
-    <hr>
-    <h2>EVENTS</h2>
-    <hr>
-    <article>
-      <a href=""><img src="<?= $page->images()->nth(3)->crop(500)->url() ?>" alt=""></a>      
-      <a href=""><img src="<?= $page->images()->nth(4)->crop(500)->url() ?>" alt=""></a>  
+    <article class="cards">
+      <section>
+        <img src="" alt="">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas reiciendis esse animi laborum, 
+          omnis consequatur est a magni ipsam cupiditate similique assumenda vero neque quas delectus iure, iusto ut quo.
+        </p>
+      </section>
+
+      <section>
+        <img src="" alt="">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas reiciendis esse animi laborum, 
+          omnis consequatur est a magni ipsam cupiditate similique assumenda vero neque quas delectus iure, iusto ut quo.
+        </p>
+      </section>
+
+      <section>
+        <img src="" alt="">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas reiciendis esse animi laborum, 
+          omnis consequatur est a magni ipsam cupiditate similique assumenda vero neque quas delectus iure, iusto ut quo.
+        </p>
+      </section>
     </article>
+      
+      
   </section>
-</main>
 
 <?php snippet('footer') ?>
 </body>
