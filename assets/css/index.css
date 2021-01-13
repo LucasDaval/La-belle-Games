@@ -28,7 +28,7 @@ body {
     background-color: grey;
     border-style: none;
     border-radius: 20px;
-    box-shadow: 5px 5px 10px grey;
+    box-shadow: 5px 5px 15px rgb(56, 56, 56);
 }
 
 .cards section {
@@ -204,6 +204,10 @@ footer a {
     position: absolute;
     width: 20%;
     color: rgb(255, 255, 255);
+}
+
+#rs li{
+    width: 16%;
 }
 
 section {

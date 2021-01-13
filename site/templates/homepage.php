@@ -41,8 +41,6 @@
     </article>
   </section>
 
-  <hr>
-
   <section>
     <p class="desc-text">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia labore, 

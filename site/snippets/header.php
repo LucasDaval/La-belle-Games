@@ -25,11 +25,12 @@
 <body>
   <header class="header">
     <ul id="rs">
-      <li>Twitter</li>
-      <li>Fb</li>
-      <li>Insta</li>
-      <li>Ytb</li>
-      <li>Discord</li>
+      <?php 
+        $i=5;
+        for($i; $i<=8; $i++) : 
+      ?>
+        <li><a href=""><img src="<?= $page->images()->nth($i)->url() ?>" alt=""></a></li>
+      <?php endfor ?>
     </ul>
     <!-- In this link we call `$site->url()` to create a link back to the homepage -->
     <a class="logo" href="<?= $site->children()->listed()->nth(0)->url() ?>"><img src="assets/img/Logo.png" alt="La Belle Games logo"></a>
