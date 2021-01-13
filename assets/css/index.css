@@ -19,7 +19,7 @@ article a {
 }
 
 body {
-    /* background-color: black; */
+    background-color: #EEEEEE;
 }
 
 .cards img {
@@ -80,7 +80,6 @@ h4 {
     align-items: center;
     width: 100%;
     height: 68vh;
-    margin-bottom: 1rem;
     background-image: url("../img/labellegames.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,9 +92,8 @@ h4 {
 }
 
 .header .logo {
-    display: block;
-    margin-bottom: 1rem;
     width: 28%;
+    margin: auto;
 }
 
 img {
@@ -115,7 +113,8 @@ main {
 }
 
 nav {
-    width: 40%;
+    width: 100%;
+    background-color: #E4E6EB;
 }
 
 article {
@@ -200,7 +199,7 @@ footer a {
 
 #rs {
     top: 2%;
-    right: 2%;
+    right: 4%;
     position: absolute;
     width: 20%;
     color: rgb(255, 255, 255);
@@ -218,4 +217,6 @@ section {
 ul {
     display: flex;
     justify-content: space-around;
+    width: 50%;
+    padding: 1rem 0;
 }
