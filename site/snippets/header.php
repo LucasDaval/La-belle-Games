@@ -26,8 +26,8 @@
   <header class="header">
     <ul id="rs">
       <?php 
-        $i=5;
-        for($i; $i<=8; $i++) : 
+        $i=4;
+        for($i; $i<=7; $i++) : 
       ?>
         <li><a href=""><img src="<?= $page->images()->nth($i)->url() ?>" alt=""></a></li>
       <?php endfor ?>
@@ -44,7 +44,7 @@
   <nav>
     <ul>
     
-      <li id="lbgNavBarre"><a href=""><img src="<?= $pages->files()->nth(9)->url()?>" alt=""></a></li>
+      <li id="lbgNavBarre"><a href=""><img src="<?= $pages->files()->nth(8)->url()?>" alt=""></a></li>
 
       <?php foreach($site->children()->listed() as $item): ?>
           <li><a href="<?= $item->url() ?>"><?= $item->title() ?></a></li>
