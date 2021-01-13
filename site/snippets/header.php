@@ -43,6 +43,9 @@
   </header>
   <nav>
     <ul>
+    
+    <li><a href=""><img src="<?= $pages->files()->nth(9)->url()?>" alt=""></a></li>
+
       <?php foreach($site->children()->listed() as $item): ?>
           <li><a href="<?= $item->url() ?>"><?= $item->title() ?></a></li>
       <?php endforeach ?>
