@@ -7,4 +7,4 @@
  * More about snippets: https://getkirby.com/docs/guide/templates/snippets
  */
 ?>
-  <h1><?= $page->title() ?></h1>
+  <!-- <h1><?= $page->title() ?></h1> -->
