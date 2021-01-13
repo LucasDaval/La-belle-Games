@@ -33,6 +33,12 @@
     </ul>
     <!-- In this link we call `$site->url()` to create a link back to the homepage -->
     <a class="logo" href="<?= $site->children()->listed()->nth(0)->url() ?>"><img src="assets/img/Logo.png" alt="La Belle Games logo"></a>
+    <div class="wanderer">
+        <h4>OUR GAME</h4>
+        <h2>THE WANDERER ! FRANKENSTEIN'S CREATURE</h2>
+        <p class="textwanderer">The game tasks players with writing<br>their own version of Mary Shelley's<br>gothic classic.</p>
+        <span class="learnmore">LEARN MORE</span>
+    </div>
   </header>
   <nav>
     <ul>
