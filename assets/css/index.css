@@ -185,12 +185,17 @@ footer a {
     border-radius: 3rem;
     cursor: pointer;
     text-align: center;
+    color: white;
 }
 
 .labellegames {
     width: 45%;
     display: flex;
     flex-direction: column;
+}
+
+#lbgNavBarre{
+    width: 20%;
 }
 
 .secondimagelabelle {
@@ -218,6 +223,7 @@ section {
 ul {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 50%;
     padding: 1rem 0;
 }
