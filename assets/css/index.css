@@ -24,7 +24,7 @@ body {
 
 .cards img {
     width: 414px;
-    height: 300px;
+    height: 44vh;
     background-color: grey;
     border-style: none;
     border-radius: 20px;
@@ -33,7 +33,6 @@ body {
 
 .cards section {
     width: 30%;
-    height: auto;
 }
 
 .cards section p {
@@ -196,6 +195,16 @@ footer a {
 
 #lbgNavBarre {
     width: 20%;
+}
+
+nav ul li {
+    text-transform: uppercase;
+    list-style: none;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
 }
 
 .secondimagelabelle {
