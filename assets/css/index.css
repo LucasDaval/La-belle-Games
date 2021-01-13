@@ -178,6 +178,7 @@ footer a {
 
 .learnmore {
     background-color: #34267f;
+    color: white;
     font-weight: bold;
     margin: 0 1rem 1rem 9rem;
     padding: 0.5rem;
@@ -210,7 +211,7 @@ footer a {
     color: rgb(255, 255, 255);
 }
 
-#rs li{
+#rs li {
     width: 16%;
 }
 
