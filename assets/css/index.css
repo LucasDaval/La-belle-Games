@@ -129,6 +129,18 @@ article a img {
     border-radius: 20%;
 }
 
+footer {
+    background-color: #404040;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a {
+    color: white;
+}
+
 .titre {
     width: 20%;
     position: absolute;

@@ -80,7 +80,7 @@
       
       
   </section>
-
+</main>
 <?php snippet('footer') ?>
 </body>
 </html>

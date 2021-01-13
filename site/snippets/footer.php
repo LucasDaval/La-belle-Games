@@ -11,24 +11,8 @@
   </div>
 
   <footer class="footer">
-    <div>
-      <h3>CONTACT US</h3>
-      <p>at labellegames.com</p>
-    </div>
-
-    <a href="<?= url() ?>">&copy; <?= date('Y') ?> / <?= $site->title() ?></a>
-
-    <div>
-      <h3>FOLLOW US ON</h3>
-      <ul id="rsFooter">
-        <li>Twitter</li>
-        <li>Fb</li>
-        <li>Insta</li>
-        <li>Ytb</li>
-        <li>Discord</li>
-      </ul>
-    </div>
-
+   
+    <a href="<?= url() ?>">&copy; <?= date('Y') ?> / <?= $site->title() ?> - Website designed and developped by BAP21.</a>
 
     <?php if ($about = page('about')): ?>
     
