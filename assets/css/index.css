@@ -19,7 +19,7 @@ article a {
 }
 
 body {
-    /* background-color: black; */
+    background-color: #eeeeee;
 }
 
 .cards img {
@@ -178,7 +178,7 @@ footer a {
 }
 
 .learnmore {
-    background-color: red;
+    background-color: #34267f;
     font-weight: bold;
     margin: 0 1rem 1rem 9rem;
     padding: 0.5rem;
