@@ -25,7 +25,21 @@
 <main>
   <?php snippet('intro') ?>
 
-  <section></section>
+ 
+  <section id="presentation">
+    <article> 
+    <a href="<?= $site->children()->listed()->nth(2)->url() ?>"><img src="<?= $page->images()->nth(0)->crop(500)->url() ?>" alt=""></a>
+      <div class="titre">
+        <h3>TITRE</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor totam eveniet sed deleniti, porro qui voluptate veniam neque earum incidunt facere ullam? Unde temporibus mollitia consequuntur repellendus voluptate, assumenda.Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+      </div>     
+      <div class="labellegames">
+        <h3>LaBelleGames</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, odit cum quisquam at numquam, voluptatibus qui, aliquam delectus unde explicabo velit nobis voluptates fuga rem consequuntur quas dignissimos aspernatur. Earum?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, odit cum quisquam at numquam, voluptatibus qui, aliquam delectus unde explicabo velit nobis voluptates fuga rem consequuntur quas dignissimos aspernatur. Earum?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, odit cum quisquam at numquam, voluptatibus qui, aliquam delectus unde explicabo velit nobis voluptates fuga rem consequuntur quas dignissimos aspernatur. </p>
+        <a class="secondimagelabelle" href="<?= $site->children()->listed()->nth(2)->url() ?>"><img src="<?= $page->images()->nth(0)->crop(500)->url() ?>" alt=""></a>
+      </div>
+    </article>
+  </section>
 
   <hr>
 
