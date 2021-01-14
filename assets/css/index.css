@@ -64,7 +64,7 @@ h2 {
 h3 {
     font-family: sans-serif, 'Montserrat';
     font-weight: 800;
-    margin-bottom: 1rem;
+    margin: 2rem 0;
 }
 
 h4 {
@@ -149,8 +149,8 @@ footer a {
     cursor: pointer;
 }
 
-.titre h3 {
-    margin: 2rem;
+.titre h3{
+    margin-left: 2rem;
 }
 
 .titre p {

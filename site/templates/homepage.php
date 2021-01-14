@@ -30,7 +30,7 @@
     <article> 
     <a href="<?= $site->children()->listed()->nth(2)->url() ?>"><img src="<?= $page->images()->nth(3)->crop(500)->url() ?>" alt=""></a>
       <div class="titre">
-        <h3>TITRE</h3>
+        <h3>CREATORS</h3>
         <p>
           Thibaut de Corday. A documentary films and video games producer dealing with social issues – and
           a TV and games writer. Cédric Bache. After more than 15 years, as a head of business developpment
@@ -62,6 +62,7 @@
     <article class="cards">
       <section>
       <a class="leftimage" href="<?= $site->children()->listed()->nth(2)->url() ?>"><img src="<?= $page->images()->nth(3)->crop(500)->url() ?>" alt=""></a>
+        <h3>EVENTS :</h3>
         <p>
           We create original gamejams where developpers, artists and reporter team up and work together to
           create . Our game jams are supported by important media partners as Arte, Mediapart, Le Mouv’
@@ -71,8 +72,8 @@
 
       <section>
       <a class="middleimage" href="<?= $site->children()->listed()->nth(2)->url() ?>"><img src="<?= $page->images()->nth(2)->crop(500)->url() ?>" alt=""></a>
+        <h3>URBAN JAM :</h3>
         <p>
-          URBAN JAM :
           Urban Jam is a game jam based on urban cultures. La Belle Games organized this event to reunite 8
           teams of developers and street artists who worked toether to create original gameplays. This event
           has created diverse creations like graffiti made with spray paint on smarphones, rap in virtual reality,
@@ -82,8 +83,8 @@
 
       <section>
       <a class="rightimage" href="<?= $site->children()->listed()->nth(2)->url() ?>"><img src="<?= $page->images()->nth(1)->crop(500)->url() ?>" alt=""></a>
+        <h3>MEDIA JAM :</h3>
         <p>
-          MEDIA JAM :
           La Belle coorganized a game creation event, in partnership with Mediapart. The main steps of the
           event have been broadcasted live during the week-end, in order to make the creation process
           intelligible for all the followers of the event. teams composed of journalists, game developers and
