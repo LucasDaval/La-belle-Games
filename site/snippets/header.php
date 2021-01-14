@@ -29,7 +29,7 @@
         $i=4;
         for($i; $i<=7; $i++) : 
       ?>
-        <li><a href=""><img src="<?= $page->images()->nth($i)->url() ?>" alt=""></a></li>
+        <li><a href=""><img src="<?= $pages->files()->nth($i)->url() ?>" alt=""></a></li>
       <?php endfor ?>
     </ul>
     <!-- In this link we call `$site->url()` to create a link back to the homepage -->
