@@ -31,11 +31,21 @@
     <a href="<?= $site->children()->listed()->nth(2)->url() ?>"><img src="<?= $page->images()->nth(3)->crop(500)->url() ?>" alt=""></a>
       <div class="titre">
         <h3>TITRE</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor totam eveniet sed deleniti, porro qui voluptate veniam neque earum incidunt facere ullam? Unde temporibus mollitia consequuntur repellendus voluptate, assumenda.Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <p>
+          Thibaut de Corday. A documentary films and video games producer dealing with social issues – and
+          a TV and games writer. Cédric Bache. After more than 15 years, as a head of business developpment
+          at Neko Entertainment, Cedric is a veteran of the indie scene. Laurent Checola. After a first career,
+          employed at Le Monde, he became “indie journalist” working on webdocumentaries and game
+          projects.
+        </p>
       </div>     
       <div class="labellegames">
         <h3>LaBelleGames</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, odit cum quisquam at numquam, voluptatibus qui, aliquam delectus unde explicabo velit nobis voluptates fuga rem consequuntur quas dignissimos aspernatur. Earum?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, odit cum quisquam at numquam, voluptatibus qui, aliquam delectus unde explicabo velit nobis voluptates fuga rem consequuntur quas dignissimos aspernatur. Earum?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, odit cum quisquam at numquam, voluptatibus qui, aliquam delectus unde explicabo velit nobis voluptates fuga rem consequuntur quas dignissimos aspernatur. </p>
+        <p>
+          La Belle Games is an Independent game studio created in 2019. This new indie label is destined to
+          promote videogames with content. Beware : we're not making “serious games” ! La Belle was
+          founded by 3 people, eager to push the video game medium forward. 
+        </p>
         <a class="secondimagelabelle" href="<?= $site->children()->listed()->nth(2)->url() ?>"><img src="<?= $page->images()->nth(1)->crop(500)->url() ?>" alt=""></a>
       </div>
     </article>
@@ -43,37 +53,41 @@
 
   <section>
     <p class="desc-text">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia labore, 
-      laboriosam beatae fuga quaerat eveniet maxime inventore doloribus, blanditiis nostrum soluta natus! 
-      Delectus beatae maxime at odio, voluptate vero repellat.
-      Illo vitae exercitationem dolore doloribus! Rerum ipsam consectetur dicta quos odit ipsum repellendus, 
-      uo eaque ducimus ab assumenda, corporis expedita eligendi eius excepturi impedit ut ad quisquam sint obcaecati! Excepturi?
-      Quos illum ea omnis fugit, consectetur exercitationem obcaecati iste rem consequatur perspiciatis 
-      assumenda sint, sunt dolore quasi laudantium hic sapiente? Modi voluptas, facere vel mollitia a maiores dolorum temporibus impedit?
+      At La Belle Games, we want to create games that are not just about entertainment. With Arte, we
+      worked on The Wanderer: Frankenstein's Creature, a free adaptation of Mary Shelley’s gothic
+      classic. The game received several distinctions and had a lot of international press coverage. We also
+      imagine original gamejams where developers join forces with artists or journalists.
     </p>
 
     <article class="cards">
       <section>
       <a class="leftimage" href="<?= $site->children()->listed()->nth(2)->url() ?>"><img src="<?= $page->images()->nth(3)->crop(500)->url() ?>" alt=""></a>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas reiciendis esse animi laborum, 
-          omnis consequatur est a magni ipsam cupiditate similique assumenda vero neque quas delectus iure, iusto ut quo.
+          We create original gamejams where developpers, artists and reporter team up and work together to
+          create . Our game jams are supported by important media partners as Arte, Mediapart, Le Mouv’
+          and others.
         </p>
       </section>
 
       <section>
       <a class="middleimage" href="<?= $site->children()->listed()->nth(2)->url() ?>"><img src="<?= $page->images()->nth(2)->crop(500)->url() ?>" alt=""></a>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas reiciendis esse animi laborum, 
-          omnis consequatur est a magni ipsam cupiditate similique assumenda vero neque quas delectus iure, iusto ut quo.
+          URBAN JAM :
+          Urban Jam is a game jam based on urban cultures. La Belle Games organized this event to reunite 8
+          teams of developers and street artists who worked toether to create original gameplays. This event
+          has created diverse creations like graffiti made with spray paint on smarphones, rap in virtual reality,
+          or even interactive clips... All the games made during this gamejam are available on Itchio. 
         </p>
       </section>
 
       <section>
       <a class="rightimage" href="<?= $site->children()->listed()->nth(2)->url() ?>"><img src="<?= $page->images()->nth(1)->crop(500)->url() ?>" alt=""></a>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas reiciendis esse animi laborum, 
-          omnis consequatur est a magni ipsam cupiditate similique assumenda vero neque quas delectus iure, iusto ut quo.
+          MEDIA JAM :
+          La Belle coorganized a game creation event, in partnership with Mediapart. The main steps of the
+          event have been broadcasted live during the week-end, in order to make the creation process
+          intelligible for all the followers of the event. teams composed of journalists, game developers and
+          students created games inspired by the french presidential campain.
         </p>
       </section>
     </article>
