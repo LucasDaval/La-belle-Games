@@ -21,6 +21,19 @@ article a {
 
 article a img {
     border-radius: 20%;
+    transition-duration: 1s;
+}
+
+article a img:hover {
+    box-shadow: 15px 15px 15px #972401;
+}
+
+.secondimagelabelle img {
+    transition-duration: 1s;
+}
+
+.secondimagelabelle img:hover {
+    box-shadow: 15px 15px 15px #857658;
 }
 
 body {
@@ -33,6 +46,11 @@ body {
     border-style: none;
     border-radius: 20px;
     box-shadow: 5px 5px 15px rgb(56, 56, 56);
+    transition: all 500ms ease-in-out;
+}
+
+.cards img:hover {
+    transform: rotate3d(1, 1, 1, 10deg);
 }
 
 .cards section {
@@ -133,6 +151,46 @@ img {
     flex-direction: column;
 }
 
+#rs a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #000;
+    transition: 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+#rs a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.logo:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #000;
+    transition: 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.logo:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+nav li a:hover {
+    color: #34267f;
+}
+
 li {
     list-style: none;
 }
@@ -189,6 +247,11 @@ section {
     box-shadow: 5px 5px 15px rgb(56, 56, 56);
     margin: 20rem;
     cursor: pointer;
+    transition-duration: 1.5s;
+}
+
+.titre:hover {
+    transform: translateY(50px);
 }
 
 .textwanderer {
@@ -232,6 +295,11 @@ ul {
     border-radius: 3rem;
     text-align: center;
     margin-left: 10em;
+    transition-duration: 1s;
+}
+
+.wanderer a:hover {
+    transform: scale(1.2);
 }
 
 hr {
@@ -240,6 +308,22 @@ hr {
     margin: 0 auto;
     background-color: black;
     display: none;
+}
+
+.middleimage img {
+    transition-duration: 0.5s;
+}
+
+.middleimage img:hover {
+    box-shadow: 15px 15px 15px #AEAEAE;
+}
+
+.rightimage img {
+    transition-duration: 0.5s;
+}
+
+.rightimage img:hover {
+    box-shadow: 15px 15px 15px #857658;
 }
 
 @media screen and (max-width:1050px) {
