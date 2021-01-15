@@ -29,8 +29,7 @@ body {
 }
 
 .cards img {
-    width: 414px;
-    height: 44vh;
+    width: 28vw;
     background-color: grey;
     border-style: none;
     border-radius: 20px;
@@ -75,7 +74,7 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 1.8vw;
     margin: 0 0 1rem 1rem;
 }
 
@@ -109,7 +108,7 @@ h4 {
 }
 
 .header .logo {
-    width: 28%;
+    width: 28vw;
     margin: auto;
 }
 
@@ -125,18 +124,6 @@ img {
     width: 45%;
     display: flex;
     flex-direction: column;
-}
-
-.learnmore {
-    background-color: #34267f;
-    color: white;
-    font-weight: bold;
-    margin: 0 1rem 1rem 9rem;
-    padding: 0.5rem;
-    border-radius: 3rem;
-    cursor: pointer;
-    text-align: center;
-    color: white;
 }
 
 li {
@@ -180,7 +167,6 @@ nav ul li a {
 }
 
 section {
-    margin: 0 auto;
     height: 100vh;
 }
 
@@ -217,16 +203,38 @@ ul {
 
 .wanderer {
     width: 20%;
-    display: flex;
     position: absolute;
-    flex-direction: column;
-    bottom: 0;
-    right: 0;
-    margin: 10rem 6rem;
+    top: 40vh;
+    right: 4vw;
     background-color: white;
     border-radius: 2rem;
     box-shadow: 5px 5px 15px rgb(56, 56, 56);
 }
 
+.wanderer a{
+    background-color: #34267f;
+    font-size: 1vw;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 3rem;
+    text-align: center;
+}
 
 
+
+
+@media screen and (max-width:1024px){
+    .header{
+        height: 14vh;
+    }
+
+    .header .logo{
+        width: 14vw;
+    }
+
+    .wanderer {
+        top: 8vh;
+    }
+}

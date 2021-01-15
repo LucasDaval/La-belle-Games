@@ -38,7 +38,7 @@
         <h4>OUR GAME</h4>
         <h2>THE WANDERER ! FRANKENSTEIN'S CREATURE</h2>
         <p class="textwanderer">The game tasks players with writing their own version of Mary Shelley's gothic classic.</p>
-        <span class="learnmore">LEARN MORE</span>
+        <a href="#">LEARN MORE</a>
     </div>
   </header>
   <nav>
