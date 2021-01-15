@@ -13,7 +13,6 @@ article {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10rem;
 }
 
 article a {
@@ -46,7 +45,7 @@ body {
 
 .desc-text {
     width: 50%;
-    margin: 4rem auto;
+    margin: 4rem auto 8rem;
 }
 
 div {
@@ -66,6 +65,10 @@ footer {
 
 footer a {
     color: white;
+}
+
+#founderImg{
+    width: 36vw;
 }
 
 h1 {
@@ -163,15 +166,19 @@ nav ul li a {
 
 .secondimagelabelle {
     margin: 3rem auto;
-    width: 76%;
+    width: 28vw;
 }
 
 section {
     height: 100vh;
 }
 
+#second{
+    height: 120vh;
+}
+
 .titre {
-    width: 20%;
+    width: 20vw;
     position: absolute;
     background-color: white;
     border-radius: 2rem;
@@ -220,21 +227,65 @@ ul {
     margin-bottom: 1rem;
     border-radius: 3rem;
     text-align: center;
+    margin-left: 10em;
 }
 
 
 
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1050px){
+    .cards section{
+        height: 40vh;
+    }
+
+    .desc-text{
+        width: 80%;
+    }
+    
+    footer{
+        height: 8vh;
+    }
     .header{
-        height: 14vh;
+        height: auto;
     }
 
     .header .logo{
         width: 14vw;
     }
 
+    #presentation{
+        height: auto;
+    }
+
+    .titre {
+        width: 36vw;
+        margin: 22rem 0rem 0 0;
+    }
+
     .wanderer {
         top: 8vh;
     }
+
+    #second{
+        height: auto;
+        margin-top: 16rem;
+    }
+    
+}
+
+
+@media screen and (max-width:1050px){
+
+    .cards section{
+        height: auto;
+    }
+
+    #second{
+        margin-top: 24rem; 
+    }
+
+    .wanderer {
+        width: 28%;
+    }
+
 }

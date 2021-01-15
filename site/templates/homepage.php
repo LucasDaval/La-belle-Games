@@ -28,7 +28,7 @@
  
   <section id="presentation">
     <article> 
-    <a href="<?= $site->children()->listed()->nth(2)->url() ?>"><img src="<?= $page->images()->nth(3)->crop(500)->url() ?>" alt=""></a>
+    <a href="<?= $site->children()->listed()->nth(2)->url() ?>" id="founderImg"><img src="<?= $page->images()->nth(3)->crop(500)->url() ?>" alt="Founders"></a>
       <div class="titre">
         <h3>CREATORS</h3>
         <p>
@@ -46,12 +46,12 @@
           promote videogames with content. Beware : we're not making “serious games” ! La Belle was
           founded by 3 people, eager to push the video game medium forward. 
         </p>
-        <a class="secondimagelabelle" href="<?= $site->children()->listed()->nth(2)->url() ?>"><img src="<?= $page->images()->nth(1)->crop(500)->url() ?>" alt=""></a>
+        <a class="secondimagelabelle" href="<?= $site->children()->listed()->nth(2)->url() ?>"><img src="<?= $page->images()->nth(1)->crop(500)->url() ?>" alt="La Belle Games Description"></a>
       </div>
     </article>
   </section>
 
-  <section>
+  <section id="second">
     <p class="desc-text">
       At La Belle Games, we want to create games that are not just about entertainment. With Arte, we
       worked on The Wanderer: Frankenstein's Creature, a free adaptation of Mary Shelley’s gothic
