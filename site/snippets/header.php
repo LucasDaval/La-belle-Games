@@ -44,7 +44,7 @@
   <nav>
     <ul>
     
-      <li id="lbgNavBarre"><a href=""><img src="<?= $pages->files()->nth(8)->url()?>" alt=""></a></li>
+      <li id="lbgNavBarre"><a href="<?= $site->children()->listed()->nth(0)->url() ?>"><img src="<?= $pages->files()->nth(8)->url()?>" alt=""></a></li>
 
       <?php foreach($site->children()->listed() as $item): ?>
           <li><a href="<?= $item->url() ?>"><?= $item->title() ?></a></li>
