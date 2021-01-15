@@ -39,7 +39,7 @@
           projects.
         </p>
       </div>   
-      </div>  
+
 
       <div class="labellegames">
         <div class="test">
