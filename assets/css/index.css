@@ -67,7 +67,7 @@ footer a {
     color: white;
 }
 
-#founderImg{
+#founderImg {
     width: 36vw;
 }
 
@@ -177,7 +177,7 @@ section {
     height: 100vh;
 }
 
-#second{
+#second {
     height: 120vh;
 }
 
@@ -234,60 +234,56 @@ ul {
     margin-left: 10em;
 }
 
-@media screen and (max-width:1050px){
-    .cards section{
+hr {
+    width: 50vw;
+    height: 0.3vh;
+    margin: 0 auto;
+    background-color: black;
+    display: none;
+}
+
+@media screen and (max-width:1050px) {
+    .cards section {
         height: auto;
     }
-
-    .desc-text{
+    .desc-text {
         width: 80%;
     }
-    
-    footer{
+    footer {
         height: 8vh;
     }
-    .header{
+    .header {
         height: auto;
     }
     .header .logo {
         width: 14vw;
     }
-
-    #presentation{
+    #presentation {
         height: auto;
     }
-
     .titre {
         width: 36vw;
         margin: 22rem 0rem 0 0;
     }
-
     .wanderer {
         top: 8vh;
     }
-
-    #second{
+    #second {
         height: auto;
         margin-top: 16rem;
     }
-    
 }
 
-
-@media screen and (max-width:768px){
-
-    .cards section{
+@media screen and (max-width:768px) {
+    .cards section {
         height: auto;
     }
-
-    #second{
-        margin-top: 24rem; 
+    #second {
+        margin-top: 24rem;
     }
-
     .wanderer {
         width: 28%;
     }
-
 }
 
 @media screen and (max-width:375px) {
@@ -296,6 +292,9 @@ ul {
         justify-content: center;
         align-items: center;
         flex-direction: column-reverse;
+    }
+    article a img {
+        width: 50vw;
     }
     .header {
         background-position: 0;
@@ -326,7 +325,8 @@ ul {
         margin: 0;
     }
     .wanderer a {
-        margin-top: 0.7rem;
+        margin: 1rem 0;
+        align-items: center;
         font-size: 2vw;
     }
     nav ul {
@@ -337,7 +337,7 @@ ul {
         display: none;
     }
     main {
-        margin: 15rem 2rem 1rem 2rem;
+        margin: 15rem 2rem 1rem 3rem;
     }
     .titre {
         top: 200vw;
@@ -358,6 +358,7 @@ ul {
     }
     .desc-text {
         width: auto;
+        margin: 4rem auto;
     }
     .labellegames {
         width: 70vw;
@@ -372,15 +373,22 @@ ul {
     .secondimagelabelle {
         top: 0;
     }
+    #second {
+        margin-top: 2rem;
+        align-items: center;
+    }
     #presentation {
         height: auto;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     section {
         height: auto;
     }
     footer a {
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5vw;
     }
     .imgTitre {
         display: flex;
@@ -390,12 +398,25 @@ ul {
     .imgTitre img {
         width: 50vw;
     }
+    .cards {
+        flex-direction: column;
+    }
     .cards section {
         width: auto;
+    }
+    .cards a img {
+        width: 50vw;
+    }
+    .cards h3 {
+        text-align: center;
     }
     section a {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    hr {
+        display: block;
+        margin: 4rem auto;
     }
 }
