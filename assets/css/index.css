@@ -232,7 +232,7 @@ ul {
 
 @media screen and (max-width:1050px){
     .cards section{
-        height: 40vh;
+        height: auto;
     }
 
     .desc-text{
@@ -270,7 +270,7 @@ ul {
 }
 
 
-@media screen and (max-width:1050px){
+@media screen and (max-width:768px){
 
     .cards section{
         height: auto;
