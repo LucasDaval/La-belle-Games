@@ -10,12 +10,18 @@ a {
 }
 
 article {
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10rem;
 }
 
 article a {
     margin: 2rem 0;
+}
+
+article a img {
+    border-radius: 20%;
 }
 
 body {
@@ -49,6 +55,18 @@ div {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+footer {
+    background-color: #404040;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a {
+    color: white;
 }
 
 h1 {
@@ -99,6 +117,28 @@ img {
     width: 100%;
 }
 
+#lbgNavBarre {
+    width: 20%;
+}
+
+.labellegames {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.learnmore {
+    background-color: #34267f;
+    color: white;
+    font-weight: bold;
+    margin: 0 1rem 1rem 9rem;
+    padding: 0.5rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+}
+
 li {
     list-style: none;
 }
@@ -107,36 +147,41 @@ main {
     margin: 9rem 4rem 2rem 4rem;
 }
 
-.menu a {
-    margin: 0 .75rem;
-}
-
 nav {
     width: 100%;
     background-color: #E4E6EB;
 }
 
-article {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10rem;
+nav ul li {
+    text-transform: uppercase;
+    list-style: none;
 }
 
-article a img {
-    border-radius: 20%;
+nav ul li a {
+    color: black;
+    font-weight: bold;
 }
 
-footer {
-    background-color: #404040;
-    height: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#rs {
+    top: 2%;
+    right: 4%;
+    position: absolute;
+    width: 20%;
+    color: rgb(255, 255, 255);
 }
 
-footer a {
-    color: white;
+#rs li {
+    width: 16%;
+}
+
+.secondimagelabelle {
+    margin: 3rem auto;
+    width: 76%;
+}
+
+section {
+    margin: 0 auto;
+    height: 100vh;
 }
 
 .titre {
@@ -149,12 +194,25 @@ footer a {
     cursor: pointer;
 }
 
+.textwanderer {
+    margin: 0 1rem 2rem 1rem;
+    width: 85%;
+}
+
 .titre h3{
     margin-left: 2rem;
 }
 
 .titre p {
     margin: 0 2rem 2rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    padding: 1rem 0;
 }
 
 .wanderer {
@@ -170,69 +228,5 @@ footer a {
     box-shadow: 5px 5px 15px rgb(56, 56, 56);
 }
 
-.textwanderer {
-    margin: 0 1rem 2rem 1rem;
-    width: 85%;
-}
 
-.learnmore {
-    background-color: #34267f;
-    color: white;
-    font-weight: bold;
-    margin: 0 1rem 1rem 9rem;
-    padding: 0.5rem;
-    border-radius: 3rem;
-    cursor: pointer;
-    text-align: center;
-    color: white;
-}
 
-.labellegames {
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-}
-
-#lbgNavBarre {
-    width: 20%;
-}
-
-nav ul li {
-    text-transform: uppercase;
-    list-style: none;
-}
-
-nav ul li a {
-    color: black;
-    font-weight: bold;
-}
-
-.secondimagelabelle {
-    margin: 3rem auto;
-    width: 76%;
-}
-
-#rs {
-    top: 2%;
-    right: 4%;
-    position: absolute;
-    width: 20%;
-    color: rgb(255, 255, 255);
-}
-
-#rs li {
-    width: 16%;
-}
-
-section {
-    margin: 0 auto;
-    height: 100vh;
-}
-
-ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 50%;
-    padding: 1rem 0;
-}
