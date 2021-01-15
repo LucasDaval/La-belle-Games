@@ -192,7 +192,7 @@ section {
     width: 85%;
 }
 
-.titre h3{
+.titre h3 {
     margin-left: 2rem;
 }
 
@@ -218,7 +218,7 @@ ul {
     box-shadow: 5px 5px 15px rgb(56, 56, 56);
 }
 
-.wanderer a{
+.wanderer a {
     background-color: #34267f;
     font-size: 1vw;
     color: white;
@@ -229,9 +229,6 @@ ul {
     text-align: center;
     margin-left: 10em;
 }
-
-
-
 
 @media screen and (max-width:1050px){
     .cards section{
@@ -248,8 +245,7 @@ ul {
     .header{
         height: auto;
     }
-
-    .header .logo{
+    .header .logo {
         width: 14vw;
     }
 
@@ -288,4 +284,26 @@ ul {
         width: 28%;
     }
 
+}
+
+@media screen and (max-width:375px) {
+    .header {
+        height: 20vh;
+    }
+    .header .logo {
+        width: 20vw;
+    }
+    #rs li {
+        width: 4vw;
+    }
+    .wanderer {
+        top: 32vh;
+    }
+    nav ul {
+        width: 100%;
+        font-size: 10px;
+    }
+    .textwanderer {
+        display: none;
+    }
 }
