@@ -29,7 +29,7 @@
   <section id="presentation">
     <article> 
       <div class="imgTitre">
-    <a href="<?= $site->children()->listed()->nth(2)->url() ?>" id="founderImg"><img src="<?= $page->images()->nth(3)->crop(500)->url() ?>" alt="Founders"></a>
+        <a href="#" id="founderImg"><img src="<?= $page->images()->nth(3)->crop(500)->url() ?>" alt="Founders"></a>
       <div class="titre">
         <h3>CREATORS</h3>
         <p>
@@ -52,7 +52,7 @@
           founded by 3 people, eager to push the video game medium forward. 
         </p>
       </div>
-      <a class="secondimagelabelle" href="<?= $site->children()->listed()->nth(2)->url() ?>"><img src="<?= $page->images()->nth(1)->crop(500)->url() ?>" alt="La Belle Games Description"></a>
+      <a class="secondimagelabelle" href="#"><img src="<?= $page->images()->nth(1)->crop(500)->url() ?>" alt="La Belle Games Description"></a>
     </article>
   </section>
 <hr>
@@ -66,7 +66,7 @@
 
     <article class="cards">
       <section>
-      <a class="leftimage" href="<?= $site->children()->listed()->nth(2)->url() ?>"><img src="<?= $page->images()->nth(3)->crop(500)->url() ?>" alt=""></a>
+      <a class="leftimage" href="#"><img src="<?= $page->images()->nth(3)->crop(500)->url() ?>" alt=""></a>
       <h3>EVENTS :</h3>
         <p>
           We create original gamejams where developpers, artists and reporter team up and work together to
@@ -76,7 +76,7 @@
       </section>
 
       <section>
-      <a class="middleimage" href="<?= $site->children()->listed()->nth(2)->url() ?>"><img src="<?= $page->images()->nth(2)->crop(500)->url() ?>" alt=""></a>
+      <a class="middleimage" href="#"><img src="<?= $page->images()->nth(2)->crop(500)->url() ?>" alt=""></a>
         <h3>URBAN JAM :</h3>
       <p>
           Urban Jam is a game jam based on urban cultures. La Belle Games organized this event to reunite 8
@@ -87,7 +87,7 @@
       </section>
 
       <section>
-      <a class="rightimage" href="<?= $site->children()->listed()->nth(2)->url() ?>"><img src="<?= $page->images()->nth(1)->crop(500)->url() ?>" alt=""></a>
+      <a class="rightimage" href="#"><img src="<?= $page->images()->nth(1)->crop(500)->url() ?>" alt=""></a>
         <h3>MEDIA JAM :</h3>
       <p>
           La Belle coorganized a game creation event, in partnership with Mediapart. The main steps of the
